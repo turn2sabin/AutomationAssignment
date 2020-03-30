@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class Q10 {
+
     WebDriver driver;
 
     @Before
@@ -19,6 +20,7 @@ public class Q10 {
         driver.get("https://www.toolsqa.com/handling-alerts-using-selenium-webdriver/");
         driver.manage().window().maximize();
         Thread.sleep(2000);
+        System.out.println("sabin");
     }
     @Test
     public void alertbox () throws InterruptedException {
